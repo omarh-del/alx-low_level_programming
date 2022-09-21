@@ -1,2 +1,2 @@
-# More of low level programming languages
-**C - Variables, if, else, while
+ low level programming languages
+C - Variables, if, else, while
