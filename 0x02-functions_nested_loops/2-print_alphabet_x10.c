@@ -1,19 +1,25 @@
+/*
+ * Program print the alphabet
+ * Author Moses Kiprono
+ *
+ */
+
 #include "main.h"
 /**
-* print_alphabet_x10 - Prints the alphabet 10 times.
-*
-* Return: Always 0
-*/
+ * print_alphabet_x10 - Program prints alphabet
+ *
+ *
+ * Return: on error -1 else Always 0
+ */
 void print_alphabet_x10(void)
 {
-	int i, a;
+	int a;
+	int b;
 
-		for (i = 0; i <= 9; i++)
+	for (b = 0; b <= 9; b++)
 	{
 		for (a = 97; a <= 122; a++)
-	{
-		_putchar(a);
-	}
+			_putchar(a);
 		_putchar('\n');
 	}
 }

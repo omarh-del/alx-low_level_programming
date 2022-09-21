@@ -1,18 +1,23 @@
+/*
+ * Program print the alphabet
+ * Author Moses Kiprono
+ *
+ */
+
 #include "main.h"
-
 /**
-* print_alphabet - Print the alphabet in lowercase.
-*
-* Return: void.
-*/
-
-void print_alphabet(void)
+ * print_alphabet - Program prints alphabet
+ *
+ *
+ * Return: on error -1 else Always 0
+ */
+int print_alphabet(void)
 {
-	int i;
+	int a;
 
-	for (i = 97; i < 123; i++)
-		{
-		_putchar(i);
-		}
-		_putchar('\n');
+	for (a = 97; a <= 122; a++)
+		_putchar(a);
+	_putchar('\n');
+
+	return (0);
 }

@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* jack_bauer - prints every minute of the day
-*
-* Return: no return
-*/
+ * jack_bauer - Prints the minutes of a day
+ *
+ * Return: no return
+ */
 void jack_bauer(void)
 {
 	int a, b, c, d;
@@ -18,7 +18,7 @@ void jack_bauer(void)
 				for (d = 48; d <= 57; d++)
 				{
 					if (a >= 50 && b >= 52)
-					break;
+						break;
 					_putchar(a);
 					_putchar(b);
 					_putchar(58);
